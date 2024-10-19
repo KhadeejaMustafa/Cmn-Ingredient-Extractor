@@ -1,47 +1,10 @@
-product,ingredients
-
-Effaclar Adapalene Gel 0.1% Topical Retinoid, "CARBOMER HOMOPOLYMER, EDETATE DISODIUM, METHYLPARABEN, POLOXAMER 182, PROPYLENE GYLCOL, PURIFIED WATER, SODIUM HYDROXIDE, ADAPALENE USP 0.1%"
-
-Corx snail cream,"Snail Secretion Filtrate, Betaine, Butylene Glycol, 
-1,2-Hexanediol, Sodium Hyaluronate, Panthenol, Arginine, Allantoin, Ethyl 
-Hexanediol, Sodium Polyacrylate, Carbomer, Phenoxyethanol"
-
-Vitamin C brightening serum, "Aqua (Water), Glycerin, Alcohol Denat, Ethylhexyl Palmitate, Hexylene Glycol, 
-    Triethanolamine, Betaine, Sodium Ascorbyl Phosphate (Vitamin C), Niacinamide (Vitamin B3), 
-    Tocopheryl Acetate (Vitamin E), Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), 
-    Panthenol (Pro-Vitamin B5), Maltodextrin, Sodium Starch Octenylsuccinate, Silica, 
-    Prunus Amygdalus Dulcis (Sweet Almond) Oil, Vitis Vinifera (Grape) Seed Oil, 
-    Persea Gratissima (Avocado) Oil, Carbomer, Parfum (Fragrance), Salicylic Acid, Disodium EDTA, Phenoxyethanol, Ethylhexylglycerin, 
-    Citral, Citronellol, Hexyl Cinnamal, Limonene, Linalool"
-
-CeraVe Salicylic Acid Acne Control Gel, "Water, Glycerin, Sodium Hydroxide,Glycolic Acid,Lactic Acid, Salicylic Acid, Niacinamide, Ceramide Np, Ceramide Ap, 
-Ceramide Eop, Carbomer, Cetearyl Alcohol, Behentrimonium Methosulfate, Triethyl Citrate, Sodium Hyaluronate, Sodium Lauroyl Lactylate, Cholesterol, 
-Chlorphenesin, Disodium Edta, Hydroxypropyl Guar, Caprylyl Glycol, Xanthan Gum, Phytosphingosine, Benzoic Acid."
-
-CeraVe Skin Renewing Vitamin C Serum, "Aqua/Water/Eau, Ascorbic Acid, Glycerin, Dimethicone, Cetearyl Ethylhexanoate, Alcohol Denat., 
-Sodium Hydroxide, Ammonium Polyacryloyldimethyl Taurate, Panthenol, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Cetearyl Alcohol, Behentrimonium Methosulfate, Sodium Hyaluronate, 
-Sodium Lauroyl Lactylate, Cholesterol, Phenoxyethanol, Tocopheryl Acetate, 
-Disodium Edta, Isopropyl Myristate, Caprylyl Glycol, Xanthan Gum, Phytosphingosine, Ethylhexylglycerin."
-
-CeraVe Hydrating Facial Cleanser, "Aqua/Water/Eau, Glycerin, Cetearyl Alcohol, Phenoxyethanol, Stearyl Alcohol, 
-Cetyl Alcohol, Behentrimonium Methosulfate, Peg-40 Stearate, Glyceryl Stearate, Polysorbate 20, 
-Ethylhexylglycerin, Potassium Phosphate, Disodium Edta, Dipotassium Phosphate, Sodium Lauroyl Lactylate, 
-Ceramide Np, Ceramide Ap, Phytosphingosine, Cholesterol, Sodium Hyaluronate, Xanthan Gum, Carbomer, 
-Tocopherol, Ceramide Eop."
-
-CeraVe Daily Moisturizing Face and Body Lotion, "Purified Water, Glycerin, Caprylic/Capric Triglyceride, Behentrimonium Methosulfate and Cetearyl Alcohol, 
-Ceteareth-20 and Cetearyl alcohol, Cetyl Alcohol, Polyglyceryl-3-Diisosterate, 
-Dimethicone, Hyaluronic Acid, Ceramide 1, Ceramide 3, Ceramide 6-II, Cholesterol, 
-Phytosphingosine, Potassium Phosphate, Dipotassium phosphate, Methylparaben, Propylparaben, 
-Disodium EDTA, Sodium Lauroyl Lactylate, Polysorbate 20, Carbomer, Xanthan Gum."
-
-CeraVe Foaming Facial Cleanser, "Purified Water, Glycerin, Behentrimonium Methosulfate and Cetearyl Alcohol, 
-Ceramide 3, Ceramide 6-II, Ceramide 1, Hyaluronic Acid, Cholesterol, Polyoxyl 40 Stearate, Glyceryl Monostearate, 
-Stearyl Alcohol, Polysorbate 20, Potassium Phosphate, Dipotassium Phosphate, Sodium Lauroyl Lactylate, 
-Cetyl Alcohol, Disodium EDTA, Phytosphingosine, 
-Methylparaben, Propylparaben, Carbomer, Xanthan Gum."
-
-The Ordinary Hyaluronic Acid 2% + B5 Hydrating Serum, "Aqua (water), Sodium Hyaluronate, Propanediol, Pentylene Glycol, Hydrolyzed Hyaluronic Acid, 
-Sodium Hyaluronate Crosspolymer, Phospholipids, Sphingolipids, Panthenol, Ahnfeltiopsis Concinna Extract, Glycerin, 
-Polysorbate 20, Citric Acid, Sodium Citrate, P-anisic Acid, Tocopherol, Trisodium Ethylenediamine Disuccinate, 
-Caprylyl Glycol, Ethoxydiglycol, Ethylhexylglycerin, Hexylene Glycol, Phenoxyethanol, Chlorphenesin."
+Product,Ingredients
+Effaclar Adapalene Gel 0.1% Topical Retinoid,"CARBOMER HOMOPOLYMER, EDETATE DISODIUM, METHYLPARABEN, POLOXAMER 182, PROPYLENE GLYCOL, PURIFIED WATER, SODIUM HYDROXIDE, ADAPALENE USP 0.1%"
+Corx Snail Cream,"Snail Secretion Filtrate, Betaine, Butylene Glycol, 1,2-Hexanediol, Sodium Hyaluronate, Panthenol, Arginine, Allantoin, Ethyl Hexanediol, Sodium Polyacrylate, Carbomer, Phenoxyethanol"
+Vitamin C Brightening Serum,"Aqua (Water), Glycerin, Alcohol Denat, Ethylhexyl Palmitate, Hexylene Glycol, Triethanolamine, Betaine, Sodium Ascorbyl Phosphate (Vitamin C), Niacinamide (Vitamin B3), Tocopheryl Acetate (Vitamin E), Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Panthenol (Pro-Vitamin B5), Maltodextrin, Sodium Starch Octenylsuccinate, Silica, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Vitis Vinifera (Grape) Seed Oil, Persea Gratissima (Avocado) Oil, Carbomer, Parfum (Fragrance), Salicylic Acid, Disodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Citral, Citronellol, Hexyl Cinnamal, Limonene, Linalool"
+CeraVe Salicylic Acid Acne Control Gel,"Water, Glycerin, Sodium Hydroxide, Glycolic Acid, Lactic Acid, Salicylic Acid, Niacinamide, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Cetearyl Alcohol, Behentrimonium Methosulfate, Triethyl Citrate, Sodium Hyaluronate, Sodium Lauroyl Lactylate, Cholesterol, Chlorphenesin, Disodium EDTA, Hydroxypropyl Guar, Caprylyl Glycol, Xanthan Gum, Phytosphingosine, Benzoic Acid"
+CeraVe Skin Renewing Vitamin C Serum,"Aqua/Water/Eau, Ascorbic Acid, Glycerin, Dimethicone, Cetearyl Ethylhexanoate, Alcohol Denat., Sodium Hydroxide, Ammonium Polyacryloyldimethyl Taurate, Panthenol, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Cetearyl Alcohol, Behentrimonium Methosulfate, Sodium Hyaluronate, Sodium Lauroyl Lactylate, Cholesterol, Phenoxyethanol, Tocopheryl Acetate, Disodium EDTA, Isopropyl Myristate, Caprylyl Glycol, Xanthan Gum, Phytosphingosine, Ethylhexylglycerin"
+CeraVe Hydrating Facial Cleanser,"Aqua/Water/Eau, Glycerin, Cetearyl Alcohol, Phenoxyethanol, Stearyl Alcohol, Cetyl Alcohol, Behentrimonium Methosulfate, Peg-40 Stearate, Glyceryl Stearate, Polysorbate 20, Ethylhexylglycerin, Potassium Phosphate, Disodium EDTA, Dipotassium Phosphate, Sodium Lauroyl Lactylate, Ceramide NP, Ceramide AP, Phytosphingosine, Cholesterol, Sodium Hyaluronate, Xanthan Gum, Carbomer, Tocopherol, Ceramide EOP"
+CeraVe Daily Moisturizing Face and Body Lotion,"Purified Water, Glycerin, Caprylic/Capric Triglyceride, Behentrimonium Methosulfate and Cetearyl Alcohol, Ceteareth-20 and Cetearyl Alcohol, Cetyl Alcohol, Polyglyceryl-3-Diisosterate, Dimethicone, Hyaluronic Acid, Ceramide 1, Ceramide 3, Ceramide 6-II, Cholesterol, Phytosphingosine, Potassium Phosphate, Dipotassium Phosphate, Methylparaben, Propylparaben, Disodium EDTA, Sodium Lauroyl Lactylate, Polysorbate 20, Carbomer, Xanthan Gum"
+CeraVe Foaming Facial Cleanser,"Purified Water, Glycerin, Behentrimonium Methosulfate and Cetearyl Alcohol, Ceramide 3, Ceramide 6-II, Ceramide 1, Hyaluronic Acid, Cholesterol, Polyoxyl 40 Stearate, Glyceryl Monostearate, Stearyl Alcohol, Polysorbate 20, Potassium Phosphate, Dipotassium Phosphate, Sodium Lauroyl Lactylate, Cetyl Alcohol, Disodium EDTA, Phytosphingosine, Methylparaben, Propylparaben, Carbomer, Xanthan Gum"
+The Ordinary Hyaluronic Acid 2% + B5 Hydrating Serum,"Aqua (Water), Sodium Hyaluronate, Propanediol, Pentylene Glycol, Hydrolyzed Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, Phospholipids, Sphingolipids, Panthenol, Ahnfeltiopsis Concinna Extract, Glycerin, Polysorbate 20, Citric Acid, Sodium Citrate, P-anisic Acid, Tocopherol, Trisodium Ethylenediamine Disuccinate, Caprylyl Glycol, Ethoxydiglycol, Ethylhexylglycerin, Hexylene Glycol, Phenoxyethanol, Chlorphenesin"
