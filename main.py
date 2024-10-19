@@ -1,43 +1,47 @@
-# This program is designed to identify shared ingredients between two distinct skincare products.
+# This program is designed to extracts common ingredients used among two products.
 
 from collections import Counter
+import csv
 
-'''Snail Secretion Filtrate, Betaine, Butylene Glycol, 1,2-Hexanediol, Sodium Hyaluronate, 
-    Panthenol, Arginine, Allantoin, Ethyl Hexanediol, 
-    Sodium Polyacrylate, Carbomer, Phenoxyethanol'''
 
-'''Aqua (Water), Glycerin, Alcohol Denat, Ethylhexyl Palmitate, Hexylene Glycol, 
-    Triethanolamine, Betaine, Sodium Ascorbyl Phosphate (Vitamin C), Niacinamide (Vitamin B3), 
-    Tocopheryl Acetate (Vitamin E), Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), 
-    Panthenol (Pro-Vitamin B5), Maltodextrin, Sodium Starch Octenylsuccinate, Silica, 
-    Prunus Amygdalus Dulcis (Sweet Almond) Oil, Vitis Vinifera (Grape) Seed Oil, 
-    Persea Gratissima (Avocado) Oil, Carbomer, Parfum (Fragrance), 
-    Salicylic Acid, Disodium EDTA, Phenoxyethanol, Ethylhexylglycerin, 
-    Citral, Citronellol, Hexyl Cinnamal, 
-    Limonene, Linalool'''
-# Asking the user to input names and ingredients in the products
+# Function to read ingredients from the csv file
+def read_ingredients_from_file(file_path):
+   products = {}
+   with open(file_path, newline='') as csvfile:
+       reader = csv.reader(csvfile)
+       next(reader) # skipping the header
+       for row in reader: 
+           products[row[0]] = row[1]
 
-# Product 1's name and ingredients
-prodname1 = input('Please enter the name of first product: ') 
-str1 = input(f'Enter ingredients of {prodname1}: ')
+   return products
+           
 
-# Product 2's name and ingredients
-prodname2 = input('Please enter the name of second product: ') # product name 2
-str2 = input(f'\nEnter ingredients of {prodname2}: ')
-
-def Common_ing_extractor(product1, product2):
-
-    newstr1 = str1.replace(",", "") # Removes the comma from the list of ingredients
-    newstr2 = str2.replace(",", "")
+def common_ing_extractor(prod1_ingredients, prod2_ingredients):
+    newstr1 = prod1_ingredients.replace(",", "") # Removes the comma from the list of ingredients
+    newstr2 = prod2_ingredients.replace(",", "")
     counter = Counter(newstr1.split()) + Counter(newstr2.split())
     common_words = [word for word, count in counter.items() if count > 1] # Extracts the words that have occured more than once
-    
-
-    print(f'The ingredients used in both {prodname1} and {prodname2} are: ')
+    print(f'The ingredients used in both products are: ')
     print('\n'.join(common_words))
 
 
-# calling the function
-print(f'---- Common Ingredients Extractor ----\nWelcome to the program that extracts the ingredients that have occured in both the products.\n')
-Common_ing_extractor(str1, str2)
+def main():
+    file_path = 'products.csv'
+    products = read_ingredients_from_file(file_path)
+    
+    prod1_name = input('Please enter the name of the first product: ')
+    prod2_name = input('Please enter the name of the second product: ')
 
+    if prod1_name in products and prod2_name in products:
+        str1 = products[prod1_name]
+        str2 = products[prod2_name]
+       # print(f'Ingredients of {prod1_name}: {str1}')
+       # print(f'Ingredients of {prod2_name}: {str2}')
+        common_ing_extractor(str1, str2)
+    else:
+        print('One or both products not found in the CSV file.')
+
+# Calling the main function
+if __name__ == "__main__":
+    print(f'---- Common Ingredients Extractor ----\nA program that simplifies and displays the similar products used in skin care as well as hair care products.\n')
+    main()
